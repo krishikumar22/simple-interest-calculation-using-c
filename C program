@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+int p;
+int n;
+float r;
+float interest;
+
+printf("enter the value of p:");
+scanf("%d",&p);
+printf("enter the value of n:");
+scanf("%d",&n);
+printf("enter the value of r:");
+scanf("%f",&r);
+interest=((p*n*r)/(100));
+printf("the interest is:%.2f\n",interest);
+printf("the total amount is :%.2f",(p+interest));
+    return 0;
+}
+    
+    
+    
+    
